@@ -1,0 +1,448 @@
+.page {
+  width: 100%;
+  max-width: 1246px;
+  margin: 0 auto;
+  padding: 0rem 1.5rem;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 4rem 100px;
+  z-index: 2021;
+}
+
+header .container, nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .menu-social {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+
+  margin-left: 4rem;
+  gap: 3.4rem;
+}
+
+.menu-item {
+  display: inline-block;
+
+  margin-right: 4.8rem;
+
+  color: #dcf64b;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+
+  transition: all 0.2s;
+}
+
+.menu-item:hover {
+  color: #ffffff;
+
+  transform: scale(1.04);
+}
+
+nav img {
+  transition: all 0.2s;
+}
+
+nav img:hover {
+  filter: brightness(90%);
+  transform: translateY(-5%);
+}
+
+main {
+  width: 100%;
+  padding: 4rem 100px;
+  margin: 0 auto;
+}
+
+.s-hero {
+  background: url(images/background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: -35px; 
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  width: 100%;
+  max-width: 59.2rem;
+  margin-top: 24rem;
+  padding-bottom: 6rem;
+}
+
+.title h1 {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 6.4rem;
+  line-height: 7.7rem;
+  
+  text-align: center;
+  color: #ffffff;
+}
+
+.title span {
+  color: #dcf64b;
+}
+
+.title h2 {
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  
+  margin-bottom: 3.5rem;
+  margin-top: -30px;
+}
+
+.title p {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  
+  text-align: center;
+  color: rgba(220, 246, 75, 0.8);
+}
+
+.techs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  gap: 1.6rem;
+  margin-top: -2.5rem;
+}
+
+.btn-primary {
+  border-radius: 24px;
+  padding: 1rem 2.6rem;
+  transition: all 0.2s;
+
+  font-weight: 700;
+  line-height: 2.4rem;
+  font-size: 1.6rem;
+
+  background-color: #dcf64b;
+  color: #000000;
+  border: black;
+}
+
+.btn-primary:hover {
+  transform: scale(1.04);
+
+  background-color: #ffffff;
+}
+
+.btn-primary-empty {
+  border: 2px solid;
+  border-radius: 24px;
+
+  margin-top: 4rem;
+  padding: 1rem 5.6rem;
+
+  color: #dcf64b;
+  background-color: transparent;
+
+  transition: all 0.3s;
+}
+
+.btn-primary-empty:hover {
+  color: #000000;
+  background-color: #dcf64b;
+}
+
+.s-success {
+  padding: 14.4rem 0;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  gap: 4.4rem;
+}
+
+.title-success h2 span {
+  font-family: "Inter", sans-serif;
+}
+
+.cards {
+  font-family: "Inter";
+  font-weight: 300;
+
+  display: flex;
+}
+
+.card-title, .card-info {
+  margin: 5rem 0;
+  padding-right: 14.5rem;
+  padding-left: 1.4rem;
+
+  font-weight: 300;
+}
+
+.card-title {
+  font-size: 6.4rem;
+  line-height: 7.7rem;
+  margin-bottom: 5.5rem;
+}
+
+.card-info {
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+}
+
+.card-active, .card {
+  background-color: #dcf64b;
+  border-radius: 4px;
+
+  margin-right: 30px;
+  width: 100%;
+  max-width: 27.9rem;
+
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.card {
+  background-color: #ffffff;
+}
+
+.card:hover {
+  filter: brightness(90%);
+}
+
+.s-about {
+  background-color: #0c0c0c;
+
+  display: flex;
+  justify-content: space-between;
+
+  padding: 6rem 10rem;
+}
+
+.about-me {
+  width: 100%;
+  max-width: 71rem;
+}
+
+.about-content {
+  font-family: 'Poppins';
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 16px;
+
+  color: rgba(255, 255, 255, 0.83);
+  
+  margin-top: 2.4rem;
+  margin-right: 10rem;
+}
+
+.about-me ul {
+  display: flex;
+  gap: 1.6rem;
+  
+  margin-top: 3.2rem;
+  padding: 0;
+}
+
+.s-about img {
+  transition: all 0.2s;
+
+  border-radius: 4px;
+}
+
+.my-picture {
+  width: 368px;
+  height: 368px;
+}
+
+.s-about img:hover {
+  transform: translateY(-12%);
+  filter: brightness(80%);
+}
+
+h2 {
+  font-family: "Inter";
+  font-weight: 800;
+  font-size: 6.4rem;
+  line-height: 7.7rem;
+
+  color: #ffffff;
+  margin-top: 2rem;
+}
+
+h2 span {
+  color: #dcf64b;
+}
+
+.s-cases {
+  padding: 4.5rem 0;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.title-cases {
+  margin-bottom: 7.3rem;
+}
+
+.cases {
+  display: flex;
+  position: relative;
+
+  width: 100%;
+  height: 48rem;
+}
+
+.cases img {
+  border-radius: 0.4rem;
+
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.cases img:hover {
+  transform: translateY(-2%);
+}
+
+.case {
+  position: absolute;
+
+  top: 0;
+  left: 405px;
+}
+
+.case:first-child {
+  position: absolute;
+
+  top: 0;
+  left: 4px;
+}
+
+.case:nth-child(2) {
+  position: absolute;
+
+  top: -20px;
+  left: 315px;
+  z-index: 1;
+}
+
+.case:last-child {
+  position: absolute;
+
+  top: 0;
+  left: 700px;
+}
+
+.s-contact .container {
+  padding: 4rem 10rem;
+  padding-bottom: 4rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-contact h2 {
+  margin-bottom: 2.4rem;
+  margin-top: 5rem;
+}
+
+.tag {
+  border-radius: 5rem;
+  padding: 0.6rem 2.7rem;
+  background-color: #ffffff;
+
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.form-contact {
+  width: 100%;
+  max-width: 48.6rem;
+}
+
+input {
+  margin-bottom: 3.1rem;
+}
+
+textarea {
+  margin-bottom: 0;
+}
+
+input, textarea {
+  border: 1px solid;
+  border-radius: 0.4rem;
+  width: 100%;
+  padding: 2rem;
+  resize: none;
+
+  background-color: #1e1e1e;
+  color: #ffffff;
+  outline: none;
+
+  transition: all 0.4s;
+}
+
+input:hover, textarea:hover {
+  border: 1px solid;
+
+  color: #dcf64b;
+}
+
+.input-button {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form-contact button {
+  border-radius: 2.4rem;
+  background-color: #dcf64b;
+
+  padding: 1rem 2.4rem;
+  border: none;
+  margin-top: 1.7rem;
+
+  font-weight: 700;
+}
+
+footer {
+  background-color: #0c0c0c;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copy {
+  color: rgba(255, 255, 255, 0.8);
+
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+
+  padding: 40px;
+}
