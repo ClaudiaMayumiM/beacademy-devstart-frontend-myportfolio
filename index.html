@@ -16,6 +16,7 @@
 
   <link rel="stylesheet" href="reset.css" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="responsivo.css">
 
   <title>be.MyPortfolio</title>
 
@@ -63,11 +64,12 @@
 
         <div class="title">
 
-          <h1>Olá!👋🏻 Eu sou <br /><span>Cláudia Mayumi</span></h1>
+          <h1>Hey there!🙋‍♀️ <br/>Eu sou <span>Cláudia Mayumi</span></h1>
 
           <h2>Estudante de Desenvolvimento Front-end</h2>
 
-          <p>Tenho como responsabilidade estudar muito para ser capaz de transformar seu negócio em uma obra de arte virtual.</p>
+          <p>Tenho como responsabilidade estudar muito para ser capaz de transformar seu negócio em uma obra de arte
+            virtual.</p>
 
         </div>
 
@@ -97,7 +99,7 @@
 
           <span class="tag">#venhacomigo🔥</span>
 
-          <h2><span>Sucesso</span><br/>Tem <br />Nome</h2>
+          <h2><span>Sucesso</span><br />Tem <br/>Nome</h2>
 
         </div>
 
@@ -106,14 +108,14 @@
           <div class="card-active">
 
             <h3 class="card-title">+30</h3>
-            <p class="card-info"> Projetos <br/> <strong>Realizados</strong></p>
+            <p class="card-info"> Projetos <br /> <strong>Realizados</strong></p>
 
           </div>
 
           <div class="card">
 
             <h3 class="card-title">+150</h3>
-            <p class="card-info"> Páginas <br/><strong>Desenvolvidas </strong></p>
+            <p class="card-info"> Páginas <br /><strong>Desenvolvidas </strong></p>
 
           </div>
 
@@ -162,19 +164,17 @@
 
         <h2 class="title-cases">CASES<span>.</span></h2>
 
-        <div class="cases">
+        <div class="wrapper">
 
-          <div class="case">
-            <img src="images/case1.jpeg" alt="Imagem de um projeto" />
+          <button onclick="previousImage()" class="btn"></button>
+
+          <div id="slider">
+            <img class="selected" src="images/case1.jpeg" alt="Imagem de um projeto">
+            <img src="images/case2.jpeg" alt="Imagem de um projeto">
+            <img src="images/case3.jpeg" alt="Imagem de um projeto">
           </div>
 
-          <div class="case">
-            <img src="images/case2.jpeg" alt="Imagem de um projeto" />
-          </div>
-
-          <div class="case">
-            <img src="images/case3.jpeg" alt="Imagem de um projeto" />
-          </div>
+          <button onclick="nextImage()" class="btn"></button>
 
         </div>
 
@@ -220,12 +220,15 @@
     <footer>
 
       <div class="copy">
-        <p>Feito com ❤️ e carinho por mim.</p>
+        <p>desenvolvido com ❤️ e carinho por mim</p>
+        <p><br>prototipado pelo professor ninja Luan Monteiro</p>
       </div>
 
     </footer>
 
   </div>
+
+  <script src="script.js"></script>
 
 </body>
 
