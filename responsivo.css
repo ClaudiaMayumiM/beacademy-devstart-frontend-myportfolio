@@ -347,19 +347,23 @@
     font-size: 50%;
   }
 
-  .about-me {
-    width: 60%;
+  header nav {
+    opacity: 0;
   }
 
-  .about-content {
-    width: 30vw;
-
-    font-weight: 200;
-    font-size: 15px;
+  header {
+    display: grid;
+    padding: 0;
   }
 
-  .title-contact h2 {
-    font-size: 4.5rem;
+  main {
+    display: grid;
+    padding: 0;
+  }
+
+  footer {
+    display: grid;
+    padding: 0;
   }
 
 }
